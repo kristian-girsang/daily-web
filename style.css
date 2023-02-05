@@ -1,0 +1,23 @@
+body{
+    background-color: #fffffffd;
+}
+h1{
+    text-align: center;
+    color: #6096B4;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6096B4;
+}
+p{
+    font-family: Verdana;
+    border:2px solid #20262E;
+    text-align: justify;
+    color: #20262E;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* font-weight: bold; */
+}
