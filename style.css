@@ -2,6 +2,9 @@
 
 body{
     font-family: 'Quicksand', sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2014/06/03/19/38/road-sign-361514_960_720.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1{
     text-align: center;
