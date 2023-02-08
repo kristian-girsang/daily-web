@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAILY</title>
+    <title>HOME</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image" href="assets/images/icon.svg">
-    <link rel="stylesheet" href="">
+    <link rel="icon" type="image" href="assets/images/home.svg">
 </head>
 <body>
     <h1 class="main-font">MY WEBSITE</h1>
-    <h3 class="main-font">This is H3 element.</h3>
+    <h3 class="main-font">This is main section.</h3>
+    <div>
+        <ul>
+            <li><a href="/latihan.html">Home</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/about.html">About</a></li>
+        </ul>
+    </div>
     <div class="secondary">
         <p>
             This is also paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsa? Vero velit quisquam eum facere non dignissimos qui quas alias dolores sit. Itaque incidunt voluptates iste atque laborum est iusto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur magnam vitae amet eius nulla labore, explicabo obcaecati numquam molestiae non omnis quidem, quos dolorem asperiores, enim mollitia aut porro quod?.
@@ -61,7 +67,7 @@
         <a id="button" href="https://github.com/kristian-girsang" target="_blank">THIS IS A BUTTON</a>
     </div>
     <div class="centered-item">
-        <button class="js-button secondary" onclick="greet()">Button with javascript</button>
+        <button id="js-button" onclick="greet()">Button with javascript</button>
     </div>
     <script src="script.js"></script>
 </body>

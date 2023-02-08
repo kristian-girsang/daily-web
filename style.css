@@ -29,7 +29,41 @@ div{
     align-items: center;
 }
 
-button{
+ul{
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li{
+    width: 33%;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#js-button{
+    background-color:  #e63946;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#js-button:visited{
     background-color:  #457b9d;
     color: white;
     padding: 15px 25px;
@@ -38,22 +72,8 @@ button{
     display: inline-block;
 }
 
-button:visited{
+#js-button:hover, #js-button:active{
     background-color: #778da9;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-button:hover, button:active{
-    background-color: #778da9;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
 }
 
 
